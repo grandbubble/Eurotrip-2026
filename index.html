@@ -1,53 +1,365 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>巴黎 · 马赛 · Mallorca · 巴塞罗那 · 阿姆斯特丹 2026</title><style>
-:root{--p:#efe9d8;--p2:#e6ded0;--i:#24314e;--s:#5b6478;--l:#c9bfa4;--g:#b98b2e;--a:#3a5ba0;--b:#c97a2b;--c:#8b6bb1;--d:#3f8f66;--e:#a65b68} @media(prefers-color-scheme:dark){:root{--p:#191c26;--p2:#20232f;--i:#eae4d4;--s:#9aa0b4;--l:#3a3d4c;--g:#d9a94a;--a:#7a9be0;--b:#e2a05c;--c:#b49bd3;--d:#6fc79a;--e:#d28b98}}:root[data-theme=light]{--p:#efe9d8;--p2:#e6ded0;--i:#24314e;--s:#5b6478;--l:#c9bfa4;--g:#b98b2e;--a:#3a5ba0;--b:#c97a2b;--c:#8b6bb1;--d:#3f8f66;--e:#a65b68}:root[data-theme=dark]{--p:#191c26;--p2:#20232f;--i:#eae4d4;--s:#9aa0b4;--l:#3a3d4c;--g:#d9a94a;--a:#7a9be0;--b:#e2a05c;--c:#b49bd3;--d:#6fc79a;--e:#d28b98}*{box-sizing:border-box}body{margin:0;background:var(--p);color:var(--i);font-family:Georgia,"Songti SC",serif}.sans{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Segoe UI",sans-serif}.wrap{max-width:760px;margin:auto;padding:0 20px 80px}.top{padding:22px 20px 6px;display:flex;justify-content:space-between;color:var(--s)}button{font:inherit}.theme{border:1px solid var(--l);background:none;color:var(--s);border-radius:20px;padding:5px 12px}.hero{padding:10px 0}.label,.sub,.meta,.note,.tz{color:var(--s)}.event{font-size:22px;font-weight:600;margin:6px 0 18px}.loc{display:block;font:14px sans-serif;color:var(--s);margin-top:3px}.count{display:flex;gap:14px}.unit{text-align:center}.num{font:700 44px sans-serif;border-bottom:3px solid var(--g);padding:0 4px 8px}.u{font:12px sans-serif;color:var(--s);margin-top:6px}.tz,.sub,.meta,.note{font-size:12px}.divider{height:14px;margin:36px 0}.divider path{stroke:var(--l)}h2{font-size:22px;margin:0 0 4px}.map{border:1px solid var(--l);background:var(--p2);padding:12px;border-radius:4px}.legend{display:flex;gap:10px;flex-wrap:wrap;font:12px sans-serif;color:var(--s)}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:4px}.book{padding:14px 0;border-top:1px solid var(--l)}.book:first-child{border-top:0}.tag{font:11px sans-serif;border:1px dashed var(--s);padding:2px 7px;border-radius:10px;margin-left:7px;color:var(--s)}.ok{background:var(--g);border-color:var(--g);color:var(--p)}.day{border-top:1px solid var(--l)}.day:last-child{border-bottom:1px solid var(--l)}.head{width:100%;display:flex;gap:14px;text-align:left;padding:16px 0;border:0;background:none;color:var(--i);cursor:pointer}.date{min-width:52px}.dn{font-size:22px;font-weight:700}.dw{font:12px sans-serif;color:var(--s)}.title{flex:1;font-weight:600}.city{font:12px sans-serif;margin-top:3px}.arr{color:var(--s)}.body{display:none;padding:0 0 20px 66px}.open .body{display:block}.row{display:flex;gap:10px;padding:8px 0}.time{min-width:52px;font:12px sans-serif;color:var(--s)}.name{flex:1}.name a{text-decoration:underline;text-underline-offset:3px}.note{display:block;margin-top:3px}.mini{margin:8px 0}.mini svg{width:100%;height:32px}.nav{display:inline-block;margin-top:10px;padding:7px 14px;border:1px solid var(--i);border-radius:20px;text-decoration:none;font:13px sans-serif}ul{list-style:none;padding:0}li{padding:9px 0;border-top:1px solid var(--l)}li:first-child{border-top:0}.tip{padding:12px 0;border-top:1px solid var(--l);font:14px/1.7 sans-serif}.tip:first-child{border-top:0}footer{text-align:center;color:var(--s);font:12px sans-serif;padding-top:30px}
- .intro{margin-top:4px;color:var(--s);font-size:12px;line-height:1.45}.name .intro{display:block}</style></head><body><div class="top sans"><span>秋日西南欧 · 25天</span><button class="theme" id="theme">切换深浅色</button></div><main class="wrap">
-<section class="hero"><div class="label sans">此刻关注</div><div class="event" id="event">加载中…</div><div class="count" id="count"><div class="unit"><div class="num" id="d">--</div><div class="u">天</div></div><div class="unit"><div class="num" id="h">--</div><div class="u">时</div></div><div class="unit"><div class="num" id="m">--</div><div class="u">分</div></div><div class="unit"><div class="num" id="s">--</div><div class="u">秒</div></div></div><div class="tz sans">按当地时区计算，并处理 2026/10/25 欧洲夏令时切换</div></section>
-<div class="divider"><svg viewBox="0 0 600 14" width="100%"><path d="M0 7Q15 0 30 7T60 7T90 7T120 7T150 7T180 7T210 7T240 7T270 7T300 7T330 7T360 7T390 7T420 7T450 7T480 7T510 7T540 7T570 7T600 7" fill="none" stroke-width="1.5"/></svg></div>
-<section><h2>行程总览</h2><p class="sub sans">巴黎 → 马赛 → Mallorca → 巴塞罗那 → 阿姆斯特丹 · 10/8–11/1</p><div class="map"><svg viewBox="0 0 760 330" width="100%"><path d="M100 70Q220 30 360 100T560 115Q520 180 350 230Q280 220 250 260Q340 240 420 205Q520 130 660 80" fill="none" stroke-width="3" stroke="var(--a)"/><g font-family="sans-serif" font-size="15" font-weight="600" fill="var(--i)"><text x="100" y="50">巴黎</text><text x="560" y="95">马赛</text><text x="250" y="290">Mallorca</text><text x="420" y="185">巴塞罗那</text><text x="660" y="60">阿姆斯特丹</text></g><circle cx="100" cy="70" r="8" fill="var(--a)"/><circle cx="560" cy="115" r="8" fill="var(--b)"/><circle cx="250" cy="260" r="8" fill="var(--c)"/><circle cx="420" cy="205" r="8" fill="var(--d)"/><circle cx="660" cy="80" r="8" fill="var(--e)"/></svg><div class="legend"><span><i class="dot" style="background:var(--a)"></i>巴黎</span><span><i class="dot" style="background:var(--b)"></i>马赛</span><span><i class="dot" style="background:var(--c)"></i>Mallorca</span><span><i class="dot" style="background:var(--d)"></i>巴塞罗那</span><span><i class="dot" style="background:var(--e)"></i>阿姆斯特丹</span></div></div></section>
-<div class="divider"><svg viewBox="0 0 600 14" width="100%"><path d="M0 7Q15 0 30 7T60 7T90 7T120 7T150 7T180 7T210 7T240 7T270 7T300 7T330 7T360 7T390 7T420 7T450 7T480 7T510 7T540 7T570 7T600 7" fill="none" stroke-width="1.5"/></svg></div>
-<section><h2>已确认</h2><p class="sub sans">目前仅写入已确认的出发航班，其余订单等截图后补全</p><div id="books"></div></section>
-<div class="divider"><svg viewBox="0 0 600 14" width="100%"><path d="M0 7Q15 0 30 7T60 7T90 7T120 7T150 7T180 7T210 7T240 7T270 7T300 7T330 7T360 7T390 7T420 7T450 7T480 7T510 7T540 7T570 7T600 7" fill="none" stroke="var(--l)" stroke-width="1.5"/></svg></div>
-<section><h2>逐日行程</h2><p class="sub sans">点击展开。地点可直接打开 Google Maps，每天可一键打开多站导航</p><div id="days"></div></section>
-<div class="divider"><svg viewBox="0 0 600 14" width="100%"><path d="M0 7Q15 0 30 7T60 7T90 7T120 7T150 7T180 7T210 7T240 7T270 7T300 7T330 7T360 7T390 7T420 7T450 7T480 7T510 7T540 7T570 7T600 7" fill="none" stroke="var(--l)" stroke-width="1.5"/></svg></div>
-<section><h2>待办清单</h2><p class="sub sans">纯列表。完成后告诉我，我再更新页面。</p><ul id="todos"></ul></section>
-<div class="divider"><svg viewBox="0 0 600 14" width="100%"><path d="M0 7Q15 0 30 7T60 7T90 7T120 7T150 7T180 7T210 7T240 7T270 7T300 7T330 7T360 7T390 7T420 7T450 7T480 7T510 7T540 7T570 7T600 7" fill="none" stroke="var(--l)" stroke-width="1.5"/></svg></div>
-<section><h2>实用贴士</h2><div id="tips"></div></section><footer>巴黎 · 马赛 · Mallorca · 巴塞罗那 · 阿姆斯特丹 · 2026</footer></main>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f4f0e8">
+<meta name="color-scheme" content="light dark">
+<title>Paris · Marseille · Mallorca · Barcelona · Amsterdam</title>
+<style>
+:root{
+  --bg:#f4f0e8;--card:#fffdf8;--ink:#1f2523;--muted:#6d716b;--line:#d9d5ca;
+  --accent:#1d5c55;--accent2:#d36c4d;--shadow:0 8px 30px rgba(31,37,35,.08);
+}
+@media(prefers-color-scheme:dark){
+ :root{--bg:#171918;--card:#202422;--ink:#f0eee7;--muted:#a9aca5;--line:#3a3e3b;--accent:#78c8b7;--accent2:#e38a6d;--shadow:0 8px 30px rgba(0,0,0,.22)}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","PingFang SC","Hiragino Sans GB","Helvetica Neue",Arial,sans-serif;line-height:1.55}
+a{color:inherit}
+.wrap{max-width:980px;margin:auto;padding:20px 16px 60px}
+.hero{padding:26px 4px 18px}
+.kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+h1{font-size:clamp(30px,7vw,58px);line-height:1.02;margin:8px 0 12px;letter-spacing:-.045em}
+.subtitle{color:var(--muted);max-width:680px}
+.badges{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}
+.badge{border:1px solid var(--line);padding:5px 9px;border-radius:999px;font-size:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:18px;margin:14px 0}
+.section-title{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:32px 4px 10px}
+.section-title h2{font-size:23px;margin:0;letter-spacing:-.025em}
+.section-title span{font-size:12px;color:var(--muted)}
+.focus{overflow:hidden;position:relative}
+.focus:before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:var(--accent)}
+.focus-top{display:flex;justify-content:space-between;gap:16px}
+.focus-label{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em}
+.focus h2{margin:5px 0 3px;font-size:23px}
+.focus .place{color:var(--muted);font-size:14px}
+.count{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:17px}
+.count div{background:color-mix(in srgb,var(--accent) 9%,transparent);border-radius:14px;text-align:center;padding:9px 4px}
+.count b{display:block;font-size:clamp(25px,6vw,40px);line-height:1;font-variant-numeric:tabular-nums}
+.count small{font-size:11px;color:var(--muted)}
+.nextnote{margin-top:10px;font-size:12px;color:var(--muted)}
+.map-wrap{overflow:hidden}
+.map{width:100%;height:auto;display:block;background:color-mix(in srgb,var(--card) 80%,var(--accent) 5%);border-radius:16px}
+.map text{font-family:inherit;fill:var(--ink)}
+.legend{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px;font-size:12px;color:var(--muted)}
+.dot{width:9px;height:9px;border-radius:50%;display:inline-block;margin-right:4px}
+.routes{stroke-linecap:round;stroke-linejoin:round;fill:none;stroke-width:5}
+.summary-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.summary-item{border:1px dashed var(--line);border-radius:15px;padding:12px}
+.summary-item b{display:block;margin-bottom:3px}
+.summary-item small{color:var(--muted)}
+.day{padding:0;overflow:hidden}
+.day-head{padding:17px 18px 13px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.day-date{font-weight:700;font-size:18px}
+.day-city{font-size:12px;color:var(--muted);margin-top:2px}
+.day-num{font-size:11px;color:var(--muted);white-space:nowrap}
+.timeline{padding:5px 18px 8px}
+.item{display:grid;grid-template-columns:62px 1fr;gap:13px;padding:14px 0;border-bottom:1px solid color-mix(in srgb,var(--line) 65%,transparent)}
+.item:last-child{border-bottom:0}
+.time{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.content b{display:block;font-size:15px}
+.content p{margin:3px 0 0;color:var(--muted);font-size:13px}
+.linkrow{display:flex;gap:7px;flex-wrap:wrap;margin-top:7px}
+.maplink,.reserve{display:inline-block;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:4px 8px;font-size:11px}
+.reserve{border-color:var(--accent2);color:var(--accent2)}
+.route-toggle{margin:0 18px 17px;padding:10px 12px;border:1px solid var(--line);border-radius:13px;background:transparent;color:var(--ink);width:calc(100% - 36px);text-align:left;cursor:pointer}
+.route-panel{display:none;padding:0 18px 16px}
+.route-panel.open{display:block}
+.mini-map{height:170px;width:100%;background:color-mix(in srgb,var(--accent) 5%,var(--card));border-radius:15px;border:1px solid var(--line)}
+.todo li{margin:9px 0}
+.todo .wait{color:var(--accent2)}
+.tip-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.tip{border:1px solid var(--line);border-radius:15px;padding:13px}
+.tip b{display:block;margin-bottom:4px}
+.tip p{margin:0;color:var(--muted);font-size:13px}
+.footer{margin-top:30px;padding:0 4px;color:var(--muted);font-size:11px}
+@media(max-width:620px){
+ .summary-grid,.tip-grid{grid-template-columns:1fr}
+ .day-head{padding:15px}
+ .timeline{padding-left:15px;padding-right:15px}
+ .item{grid-template-columns:56px 1fr;gap:9px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="hero">
+  <div class="kicker">25-day Europe trip · 2 travelers</div>
+  <h1>Paris → Marseille → Mallorca → Barcelona → Amsterdam</h1>
+  <div class="subtitle">2026.10.07 — 2026.11.01 · 杭州出发，法国＋西班牙＋荷兰。订单信息会在确认后持续补齐。</div>
+  <div class="badges">
+    <span class="badge">2 人</span><span class="badge">时区自动处理</span>
+    <span class="badge">离线可读</span><span class="badge">订单待补</span>
+  </div>
+</header>
+
+<section class="card focus">
+  <div class="focus-top">
+    <div>
+      <div class="focus-label">此刻关注 · 下一事件</div>
+      <h2 id="nextTitle">正在计算…</h2>
+      <div class="place" id="nextPlace">时区：自动</div>
+    </div>
+    <div class="badge" id="nextDate">--</div>
+  </div>
+  <div class="count">
+    <div><b id="dd">--</b><small>天</small></div>
+    <div><b id="hh">--</b><small>时</small></div>
+    <div><b id="mm">--</b><small>分</small></div>
+    <div><b id="ss">--</b><small>秒</small></div>
+  </div>
+  <div class="nextnote" id="nextNote"></div>
+</section>
+
+<div class="section-title"><h2>行程总览</h2><span>手绘路线 · 每晚城市</span></div>
+<section class="card map-wrap">
+<svg class="map" viewBox="0 0 900 430" role="img" aria-label="欧洲行程手绘路线图">
+ <path d="M120 80 C220 115 285 150 355 205 C415 250 475 292 560 300 C640 306 690 265 735 250" stroke="var(--line)" stroke-width="2" fill="none" stroke-dasharray="5 8"/>
+ <path class="routes" d="M105 70 C180 88 240 122 320 180" stroke="#7c5ac7"/>
+ <path class="routes" d="M320 180 C350 210 375 245 395 278" stroke="#d36c4d"/>
+ <path class="routes" d="M395 278 C485 310 545 345 575 360" stroke="#e2a23b"/>
+ <path class="routes" d="M575 360 C620 320 680 285 735 250" stroke="#4c88c7"/>
+ <path class="routes" d="M735 250 C790 190 820 125 805 70" stroke="#4f9b73"/>
+ <g>
+  <circle cx="105" cy="70" r="9" fill="#7c5ac7"/><text x="82" y="48" font-size="15">Paris</text>
+  <circle cx="320" cy="180" r="9" fill="#d36c4d"/><text x="298" y="160" font-size="15">Marseille</text>
+  <circle cx="395" cy="278" r="9" fill="#e2a23b"/><text x="370" y="303" font-size="15">Mallorca</text>
+  <circle cx="575" cy="360" r="9" fill="#e2a23b"/><text x="548" y="390" font-size="15">Barcelona</text>
+  <circle cx="735" cy="250" r="9" fill="#4c88c7"/><text x="710" y="228" font-size="15">Amsterdam</text>
+  <text x="770" y="58" font-size="12" fill="var(--muted)">杭州 → Europe</text>
+ </g>
+</svg>
+<div class="legend">
+ <span><i class="dot" style="background:#7c5ac7"></i>10/8–10/14 巴黎</span>
+ <span><i class="dot" style="background:#d36c4d"></i>10/15–10/17 马赛</span>
+ <span><i class="dot" style="background:#e2a23b"></i>10/18–10/22 马略卡</span>
+ <span><i class="dot" style="background:#4c88c7"></i>10/23–10/27 巴塞罗那</span>
+ <span><i class="dot" style="background:#4f9b73"></i>10/28–11/1 阿姆斯特丹</span>
+</div>
+</section>
+
+<div class="section-title"><h2>已确认 / 待补订单</h2><span>公开页面不显示敏感编号</span></div>
+<section class="card summary-grid">
+ <div class="summary-item"><b>✈️ 10/7 杭州 → 厦门</b><small>13:50 → 15:20 · 中国标准时间 · 航班号待订单确认</small></div>
+ <div class="summary-item"><b>✈️ 10/8 厦门 → 巴黎 CDG</b><small>00:10 → 06:55（+1）· 出发中国标准时间，抵达巴黎当地时间 · 航班号待确认</small></div>
+ <div class="summary-item"><b>🏨 酒店</b><small>巴黎 / 马赛 / 马略卡 / 巴塞罗那 / 阿姆斯特丹：待订单截图</small></div>
+ <div class="summary-item"><b>🎟️ 门票 / 预约</b><small>待订单截图。确认后补入场时间、地址、电话等公开信息。</small></div>
+ <div class="summary-item"><b>🚗 租车</b><small>目前未锁定。马略卡交通方案待确认。</small></div>
+ <div class="summary-item"><b>✈️ 后续航班</b><small>马赛 → 马略卡、马略卡 → 巴塞罗那、巴塞罗那 → 阿姆斯特丹、阿姆斯特丹 → 杭州：待订单截图</small></div>
+</section>
+
+<div class="section-title"><h2>逐日行程</h2><span>点击地点可导航 · 路线可展开</span></div>
+<div id="days"></div>
+
+<div class="section-title"><h2>待办清单</h2><span>公开页面故意不做勾选</span></div>
+<section class="card todo">
+<ul>
+ <li class="wait">补齐全部航班订单截图，锁定实际起降时间与机场</li>
+ <li class="wait">补齐全部酒店订单，确认地址与入住/退房时间</li>
+ <li class="wait">核对巴黎卢浮宫夜场、Villa La Roche、萨伏伊别墅等预约</li>
+ <li class="wait">确认巴黎圣母院预约开放时间</li>
+ <li class="wait">确认马赛 Cité Radieuse 参观方式与开放时间</li>
+ <li class="wait">确认 Cuevas del Drach 音乐会场次及购票</li>
+ <li class="wait">确认马略卡徒步交通及天气备用方案</li>
+ <li class="wait">确认 Cap de Formentor 当日交通/道路限制</li>
+ <li class="wait">确认巴塞罗那圣家堂、Park Güell、Casa Batlló / La Pedrera 票</li>
+ <li class="wait">确认阿姆斯特丹 Anne Frank House 门票</li>
+ <li class="wait">确定 10/31 羊角村或桑斯安斯风车村二选一</li>
+ <li class="wait">补齐返程航班，完成最后一天安排</li>
+</ul>
+</section>
+
+<div class="section-title"><h2>实用贴士</h2><span>当前为预发布版</span></div>
+<section class="card tip-grid">
+ <div class="tip"><b>🕰 时区</b><p>页面时间使用各目的地当地时区。倒计时直接比较带时区的时间点，不用手算时差。</p></div>
+ <div class="tip"><b>🌙 昼夜模式</b><p>手机/浏览器支持系统深色模式时自动切换。倒计时持续运行。</p></div>
+ <div class="tip"><b>📍 导航</b><p>地点按钮使用 Google Maps 搜索/导航链接。具体酒店和预约地点待订单确认后补齐。</p></div>
+ <div class="tip"><b>📡 离线</b><p>页面本身零外部依赖，可离线打开。地图按钮需要网络才能调用 Google Maps。</p></div>
+ <div class="tip"><b>🔐 隐私</b><p>公开网页不放确认号、护照号、房间号等敏感信息。订单截图只用于提取必要的公开行程信息。</p></div>
+ <div class="tip"><b>⚠️ 行程原则</b><p>后续以已出票航班为硬锚点。若新订单与当前安排冲突，优先调整景点，不硬塞。</p></div>
+</section>
+
+<footer class="footer">Pre-release itinerary · 2026 · 订单信息待最终核对后更新</footer>
+</div>
+
 <script>
-function euro(y,mo,da,h,mi=0){let end=Date.UTC(2026,9,25,1),summer=Date.UTC(y,mo-1,da,h-2,mi);return new Date(summer<end?summer:Date.UTC(y,mo-1,da,h-1,mi))}function cn(y,mo,da,h,mi=0){return new Date(Date.UTC(y,mo-1,da,h-8,mi))}function map(q){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q)}function dir(a){return "https://www.google.com/maps/dir/?api=1&origin="+encodeURIComponent(a[0])+"&destination="+encodeURIComponent(a[a.length-1])+(a.length>2?"&waypoints="+a.slice(1,-1).map(encodeURIComponent).join("|"):"")}
-const F=[["杭州 → 巴黎（经厦门）","厦门航空","10/7 13:50 HGH → 15:20 XMN；10/8 00:10 XMN → 06:55 CDG","ok"],["马赛 → Mallorca","航班待补","10/17 23:30 左右，订单截图待补",""],["Mallorca → 巴塞罗那","航班待补","10/22 晚间，订单截图待补",""],["巴塞罗那 → 阿姆斯特丹","航班待补","10/28 早班机，订单截图待补",""],["阿姆斯特丹 → 杭州","航班待补","11/1，订单截图待补",""]];
-const I={"杜乐丽花园":"巴黎最经典的法式轴线花园，适合从卢浮宫方向一路步行进入市中心。","橘园美术馆":"以莫奈《睡莲》闻名的小型美术馆，空间尺度舒适，适合与杜乐丽花园连逛。","卢浮宫":"世界级艺术收藏地标，馆藏庞大，建议提前锁定时段并只挑重点展厅。","Villa La Roche":"柯布西耶早期住宅代表作，建筑、色彩与空间动线非常适合设计专业视角参观。","柯布西耶工作室":"柯布西耶在巴黎长期工作的工作空间，适合与 Villa La Roche 连线参观。","巴黎现代艺术博物馆 Musée d’Art Moderne de Paris":"巴黎市立现代艺术馆，重点关注20世纪现代艺术与城市文化。","东京宫 Palais de Tokyo":"巴黎重要当代艺术空间，建筑本身也值得作为城市漫游的一站。","奥赛博物馆":"由旧火车站改造而成的艺术博物馆，以印象派与后印象派收藏著称。","罗丹美术馆":"坐落在历史宅邸与花园中的雕塑馆，适合与奥赛安排在同一天。","埃菲尔铁塔远眺":"从塞纳河及城市街区寻找铁塔视角，不登塔也能获得完整的巴黎地标体验。","巴黎圣母院 Notre-Dame":"巴黎最具代表性的哥特式建筑之一，修复后的内部空间值得关注。","Le Marais 玛黑区":"巴黎历史街区，集合老建筑、画廊、设计店、咖啡馆与犹太文化遗产。","Villa Savoye":"柯布西耶现代主义住宅经典作品，集中体现新建筑五点与自由平面理念。","凯旋门":"巴黎城市轴线的重要节点，可俯瞰香榭丽舍大街与星形广场。","香榭丽舍大街":"从凯旋门向协和广场延伸的城市大道，适合作为建筑与城市尺度观察路线。","Grand Palais 大皇宫":"巴黎大型展览与文化活动地标，玻璃穹顶是建筑本身的重要看点。","Vieux Port 老港":"马赛城市生活的核心港口，适合傍晚看船、散步和感受地中海城市气质。","Le Panier 老城":"马赛最具历史感的街区之一，坡道、彩色立面与小型艺术空间交织。","MEDUSA / art-cade / Studio Fotokino / Le Convent":"马赛较有代表性的独立艺术与文化空间，可根据当日开放情况灵活选择。","apéro":"法国南部典型的晚间小酌时间，适合在老港或街区找一家酒吧慢慢结束一天。","Cité Radieuse 马赛公寓":"柯布西耶著名的垂直城市原型，将住宅、商业与公共空间整合在一栋建筑中。","Sissi Club":"马赛夜生活场所，适合在 Cité Radieuse 之后体验当地夜间文化。","Cassis / Calanques 徒步":"马赛东侧的地中海峡湾景观带，海岸岩壁与湛蓝海水是徒步核心风景。","抵达 Mallorca":"从法国南部进入巴利阿里群岛，第一天以休息和适应节奏为主。","Palma 老城慢逛":"马略卡首府历史城区，适合用步行方式感受石墙建筑、窄巷与海岛生活。","Cuevas del Drach 龙洞":"马略卡著名地下溶洞，以地下湖与洞穴音乐会体验闻名。","Cala Millor 海滩":"马略卡东岸成熟的海滨度假区，适合在洞穴参观后放松。","Valldemossa → Deià 山地徒步":"穿越特拉蒙塔纳山脉的经典路线，连接两个极具海岛人文气质的小镇。","Alcúdia 老城":"马略卡北部保存较完整的历史城镇，城墙与石砌街巷很有地方特色。","海滩":"北部海岸的海滩停留，作为老城与 Formentor 之间的轻松段落。","Cap de Formentor 观景点":"马略卡北端著名海角，以山海交叠和悬崖公路景观著称。","Palma Cathedral":"帕尔马地标性哥特式大教堂，临海而立，内部空间与玫瑰窗都很值得看。","Palma 老城 / 市场":"以传统市场、历史街巷和本地生活为主的城市漫游区域。","Barri Gòtic 哥特区":"巴塞罗那历史核心区，罗马遗迹、中世纪街巷与当代城市生活叠在一起。","La Rambla":"巴塞罗那最著名的城市林荫大道，适合顺路观察街头生活与城市游客文化。","轻松夜游":"不安排硬性景点，用夜间步行给长途旅行留出缓冲。","Park Güell 桂尔公园":"高迪代表作之一，将自然地形、建筑与彩色马赛克融合成独特的公园空间。","周边街区散步":"从公园向格拉西亚一带步行，感受巴塞罗那较生活化的街区尺度。","圣家堂 Sagrada Família":"高迪最重要的建筑作品之一，重点观察结构、光线与自然主义细节。","Eixample":"巴塞罗那著名棋盘式城市扩展区，街角斜切设计形成独特的城市景观。","Casa Batlló 巴特罗之家":"高迪改造的现代主义住宅，以骨骼般立面、曲线空间和自然意象著称。","La Pedrera 米拉之家":"高迪现代主义住宅代表作，以波浪形石材立面和屋顶烟囱群闻名。","Passeig de Gràcia":"巴塞罗那最重要的现代主义建筑街道之一，集中分布多个建筑名作。","Palau Güell 古埃尔宫":"高迪早期重要作品，位于老城区，内部空间与采光设计很有代表性。","Boqueria Market 博盖利亚市场":"兰布拉大道旁的传统市场，适合快速体验当地食材、零食与城市日常。","Barceloneta 海滩":"紧邻老城区的城市海滩，适合在建筑密集的城市行程中换一段海边节奏。","收拾行李":"为次日早班机预留完整缓冲，避免把最后一晚排得过满。","巴塞罗那 → 阿姆斯特丹":"从地中海城市切换到荷兰运河城市，抵达后以轻松城市漫游为主。","入住酒店":"先完成入住和行李安置，再根据体力决定当日活动范围。","阿姆斯特丹运河区散步":"沿运河与老城街巷慢走，重点感受荷兰城市尺度和水系空间。","Van Gogh Museum 梵高博物馆":"系统收藏梵高作品，适合提前预约固定入场时间。","Rijksmuseum 国立博物馆":"荷兰国家级博物馆，伦勃朗、维米尔等经典作品集中于此。","Museumplein":"阿姆斯特丹博物馆广场，串联梵高博物馆、国立博物馆等文化地标。"};const D=[
-["10/8","周四","巴黎","a","抵达 · 塞纳河畔倒时差",[["06:55","抵达戴高乐机场 CDG","巴黎当地时间"],["","入住酒店","待确认"],["","塞纳河畔散步","轻松恢复时差"]]],
-["10/9","周五","巴黎","a","杜乐丽花园 · 橘园 · 卢浮宫",[["上午","杜乐丽花园",""],["","橘园美术馆","建议确认开放与预约"],["下午/晚间","卢浮宫","建议提前预约时段票|book"]]],
-["10/10","周六","巴黎","a","柯布西耶建筑 · 东京宫",[["上午","Villa La Roche",""],["","柯布西耶工作室","开放时间出发前确认"],["下午","巴黎现代艺术博物馆 Musée d’Art Moderne de Paris",""],["","东京宫 Palais de Tokyo",""]]],
-["10/11","周日","巴黎","a","奥赛 · 罗丹 · 埃菲尔铁塔远眺",[["上午","奥赛博物馆",""],["","罗丹美术馆",""],["傍晚","埃菲尔铁塔远眺","登塔需提前订票|book"]]],
-["10/12","周一","巴黎","a","圣母院 · Le Marais",[["上午","巴黎圣母院 Notre-Dame","按预约窗口操作，出发前确认"],["","Le Marais 玛黑区",""]]],
-["10/13","周二","巴黎","a","萨伏伊别墅一日游",[["全天","Villa Savoye","普瓦西；确认开放时间与交通"],["晚上","返回巴黎",""]]],
-["10/14","周三","巴黎","a","凯旋门 · 大皇宫 · 前往马赛",[["上午","凯旋门",""],["","香榭丽舍大街",""],["","Grand Palais 大皇宫","视当期展览开放"],["晚上","巴黎 → 马赛","高铁车次待补|book"]]],
-["10/15","周四","马赛","b","老港 · Le Panier · 艺术空间",[["","Vieux Port 老港",""],["","Le Panier 老城",""],["","MEDUSA / art-cade / Studio Fotokino / Le Convent","按开放情况择一至两处"],["傍晚","apéro",""]]],
-["10/16","周五","马赛","b","Cité Radieuse · Sissi Club",[["白天","Cité Radieuse 马赛公寓","柯布西耶代表作"],["晚上","Sissi Club","出发前确认当晚安排"]]],
-["10/17","周六","马赛","b","卡西斯 · Calanques 徒步 · 深夜飞 Mallorca",[["白天","Cassis / Calanques 徒步","通行状态、天气、步道需提前确认"],["晚间","返回马赛机场","23:30左右航班，必须倒推机场时间"],["23:30左右","马赛 → Mallorca","航班订单待补|book"]]],
-["10/18","周日","Mallorca","c","抵达 · Palma 老城",[["凌晨","抵达 Mallorca","机场与航班待补"],["","自然补觉",""],["下午","Palma 老城慢逛",""]]],
-["10/19","周一","Mallorca","c","Drach 洞穴音乐会 · Cala Millor",[["上午/中午","Cuevas del Drach 龙洞","音乐会场次按官方日历，需提前订票|book"],["下午","Cala Millor 海滩",""]]],
-["10/20","周二","Mallorca","c","Valldemossa → Deià 徒步",[["全天","Valldemossa → Deià 山地徒步","天气、步道与返程交通前一天确认"]]],
-["10/21","周三","Mallorca","c","Alcúdia · Formentor",[["上午","Alcúdia 老城",""],["","海滩",""],["下午","Cap de Formentor 观景点","注意道路/停车及季节性交通"]]],
-["10/22","周四","Mallorca","c","Palma 主教座堂 · 前往巴塞罗那",[["上午","Palma Cathedral",""],["","Palma 老城 / 市场",""],["晚上","Mallorca → 巴塞罗那","航班待补|book"]]],
-["10/23","周五","巴塞罗那","d","哥特区 · La Rambla",[["","Barri Gòtic 哥特区",""],["","La Rambla",""],["晚上","轻松夜游",""]]],
-["10/24","周六","巴塞罗那","d","Park Güell",[["上午","Park Güell 桂尔公园","建议提前网上预约|book"],["","周边街区散步",""]]],
-["10/25","周日","巴塞罗那","d","Sagrada Família 圣家堂",[["上午","圣家堂 Sagrada Família","你计划现场购票，出发前确认当日票务与余票|book"],["","Eixample",""]]],
-["10/26","周一","巴塞罗那","d","Casa Batlló · La Pedrera",[["上午/下午","Casa Batlló 巴特罗之家","室内参观需购票|book"],["","La Pedrera 米拉之家","室内参观需购票|book"],["","Passeig de Gràcia",""]]],
-["10/27","周二","巴塞罗那","d","Palau Güell · Boqueria · Barceloneta",[["上午","Palau Güell 古埃尔宫",""],["","Boqueria Market 博盖利亚市场",""],["下午","Barceloneta 海滩",""],["晚上","收拾行李",""]]],
-["10/28","周三","阿姆斯特丹","e","飞往阿姆斯特丹 · 运河区",[["早上","巴塞罗那 → 阿姆斯特丹","航班待补|book"],["","入住酒店","待确认"],["下午/晚上","阿姆斯特丹运河区散步",""]]],
-["10/29","周四","阿姆斯特丹","e","梵高博物馆 · Rijksmuseum",[["上午","Van Gogh Museum 梵高博物馆","建议提前预约|book"],["下午","Rijksmuseum 国立博物馆","建议提前预约|book"],["","Museumplein",""]]],
-["10/30","周五","阿姆斯特丹","e","Anne Frank House · 运河区",[["上午/下午","Anne Frank House 安妮之家","需提前线上预约|book"],["","Jordaan / 运河区",""]]],
-["10/31","周六","阿姆斯特丹","e","Giethoorn / Zaanse Schans 二选一",[["全天","Giethoorn 羊角村","提前查返程班次"],["","或 Zaanse Schans 桑斯安斯风车村","结合天气与体力二选一"]]],
-["11/1","周日","阿姆斯特丹","e","返程回杭州",[["根据航班","阿姆斯特丹 → 杭州","航班待补；国际航班建议提前3小时到机场"]]]
+const days = [
+{date:"10/07",dow:"周三",city:"出发日",title:"杭州 → 厦门 → 巴黎",tz:"Asia/Shanghai",events:[
+ {time:"13:50",title:"杭州萧山机场 → 厦门",desc:"已基本确定。15:20 抵达厦门，随后转国际航班。",q:"杭州萧山国际机场"},
+ {time:"00:10",title:"厦门 → 巴黎 CDG",desc:"跨夜航段。预计 10/8 06:55 抵达戴高乐机场。",q:"厦门高崎国际机场"}
+]},
+{date:"10/08",dow:"周四",city:"巴黎",title:"抵达巴黎 · 塞纳河散步",tz:"Europe/Paris",events:[
+ {time:"06:55",title:"抵达 Charles de Gaulle Airport",desc:"以实际落地、入境和行李时间为准。酒店信息待订单截图。",q:"Charles de Gaulle Airport"},
+ {time:"下午",title:"入住 + 休息",desc:"第一天不安排硬核景点，给跨夜航班留出缓冲。",q:"Paris"},
+ {time:"傍晚",title:"塞纳河边散步",desc:"轻松倒时差，可根据酒店位置选择河岸路线。",q:"Seine River Paris"}
+]},
+{date:"10/09",dow:"周五",city:"巴黎",title:"杜乐丽花园 → 橘园 → 卢浮宫夜场",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Jardin des Tuileries · 杜乐丽花园",desc:"连接协和广场与卢浮宫的历史花园，适合从户外慢慢进入当天的艺术路线。",q:"Jardin des Tuileries Paris"},
+ {time:"上午",title:"Musée de l'Orangerie · 橘园美术馆",desc:"以莫奈《睡莲》大型壁画空间闻名，位于杜乐丽花园西端。",q:"Musée de l'Orangerie Paris",reserve:true},
+ {time:"下午/夜场",title:"Musée du Louvre · 卢浮宫",desc:"把主要参观时间留给下午至夜场，避免与上午行程抢时间。",q:"Louvre Museum Paris",reserve:true}
+]},
+{date:"10/10",dow:"周六",city:"巴黎",title:"Villa La Roche → 柯布西耶工作室 → 当代艺术",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Villa La Roche · 拉罗什别墅",desc:"柯布西耶早期巴黎住宅代表作，重点看空间序列、色彩与立面关系。",q:"Villa La Roche Paris",reserve:true},
+ {time:"随后",title:"柯布西耶工作室",desc:"与 Villa La Roche 同属16区的柯布西耶相关建筑点，具体开放安排待核。",q:"Le Corbusier Atelier Paris",reserve:true},
+ {time:"下午",title:"Musée d'Art Moderne de Paris · 巴黎市立现代美术馆",desc:"以现代与当代艺术收藏为主，作为建筑参观后的室内艺术段落。",q:"Musée d'Art Moderne de Paris"},
+ {time:"傍晚",title:"Palais de Tokyo · 东京宫书店",desc:"靠近现代美术馆，可作为当天最后一站。",q:"Palais de Tokyo Paris"}
+]},
+{date:"10/11",dow:"周日",city:"巴黎",title:"奥赛 → 罗丹 → 埃菲尔铁塔远观",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Musée d'Orsay · 奥赛博物馆",desc:"由旧火车站改造而成的博物馆，重点看印象派及19世纪艺术收藏。",q:"Musée d'Orsay Paris",reserve:true},
+ {time:"下午",title:"Musée Rodin · 罗丹美术馆",desc:"雕塑与花园结合的参观路线，节奏可比纯室内博物馆更松。",q:"Musée Rodin Paris",reserve:true},
+ {time:"傍晚",title:"埃菲尔铁塔远观",desc:"不登塔，以塞纳河及周边街区作为收尾。",q:"Eiffel Tower Paris"}
+]},
+{date:"10/12",dow:"周一",city:"巴黎",title:"巴黎圣母院 → Le Marais",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Cathédrale Notre-Dame de Paris · 巴黎圣母院",desc:"预约规则与可预约时间窗口待出行前核实。",q:"Notre-Dame de Paris",reserve:true},
+ {time:"傍晚",title:"Le Marais · 玛黑区",desc:"从圣母院方向步行进入老街区，适合安排咖啡、画廊与街区漫步。",q:"Le Marais Paris"}
+]},
+{date:"10/13",dow:"周二",city:"巴黎 / 普瓦西",title:"萨伏伊别墅一日游",tz:"Europe/Paris",events:[
+ {time:"全天",title:"Villa Savoye · 萨伏伊别墅",desc:"柯布西耶现代建筑五点的经典住宅案例，单独留一天避免交通与参观被压缩。",q:"Villa Savoye Poissy",reserve:true}
+]},
+{date:"10/14",dow:"周三",city:"巴黎 → 马赛",title:"凯旋门 → 香榭丽舍 → 大皇宫 → 前往马赛",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Arc de Triomphe · 凯旋门",desc:"以外观与城市轴线为主，不登顶。",q:"Arc de Triomphe Paris"},
+ {time:"随后",title:"Avenue des Champs-Élysées · 香榭丽舍大街",desc:"沿轴线步行或远观，不安排长时间购物。",q:"Champs-Élysées Paris"},
+ {time:"下午",title:"Grand Palais · 大皇宫",desc:"作为当天巴黎最后一站，具体开放内容待当期展览核实。",q:"Grand Palais Paris"},
+ {time:"晚上",title:"前往马赛",desc:"以已出票交通为最终锚点，车次/航班信息待订单截图。",q:"Paris"}
+]},
+{date:"10/15",dow:"周四",city:"马赛",title:"老港 → Le Panier → 画廊路线",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Vieux-Port · 老港",desc:"马赛城市核心港湾，适合从港口开始进入老城。",q:"Vieux-Port de Marseille"},
+ {time:"随后",title:"Le Panier · Le Panier老城",desc:"马赛历史街区，以坡地街巷、壁画和小型店铺为特色。",q:"Le Panier Marseille"},
+ {time:"下午",title:"MEDUSA / art-cade / Studio Fotokino / Le Convent",desc:"按营业时间串联的画廊与艺术空间路线，具体开放日待核。",q:"MEDUSA Marseille"},
+ {time:"傍晚",title:"开胃酒",desc:"保留弹性，不预设具体店，后续可按住宿位置补充。",q:"Marseille"}
+]},
+{date:"10/16",dow:"周五",city:"马赛",title:"Cité Radieuse → Sissi Club",tz:"Europe/Paris",events:[
+ {time:"白天",title:"Cité Radieuse · 马赛公寓",desc:"柯布西耶在马赛的集合住宅代表作，重点看公共空间、屋顶与建筑尺度。",q:"Unité d'Habitation Marseille",reserve:true},
+ {time:"晚上",title:"Sissi Club",desc:"目前按周五夜间安排，营业情况与活动主题待出行前确认。",q:"Sissi Club Marseille"}
+]},
+{date:"10/17",dow:"周六",city:"马赛 / 卡西斯",title:"卡西斯峡湾徒步 → 23:30 飞马略卡",tz:"Europe/Paris",events:[
+ {time:"白天",title:"Calanques de Cassis · 卡西斯峡湾",desc:"当天最大的时间风险点。必须按 23:30 航班倒推徒步结束、返程和机场到达时间。",q:"Calanques National Park Cassis",risk:true},
+ {time:"23:30",title:"马赛 → 马略卡岛",desc:"航班订单待补。机场、航站楼与最晚值机时间锁定后再微调徒步路线。",q:"Marseille Provence Airport",risk:true}
+]},
+{date:"10/18",dow:"周日",city:"马略卡",title:"凌晨抵达 → 帕尔马老城",tz:"Europe/Madrid",events:[
+ {time:"凌晨",title:"抵达 Mallorca",desc:"实际机场与航班时间待订单截图。先入住/寄存行李，再睡到自然醒。",q:"Palma de Mallorca Airport"},
+ {time:"下午",title:"Palma Old Town · 帕尔马老城",desc:"第一天以街区散步为主，不安排远距离移动。",q:"Palma Old Town Mallorca"}
+]},
+{date:"10/19",dow:"周一",city:"马略卡",title:"龙洞音乐会 → Cala Millor",tz:"Europe/Madrid",events:[
+ {time:"上午/中午",title:"Cuevas del Drach · 龙洞",desc:"洞穴地下湖与音乐会是当天核心。具体场次必须以官网当期时间为准。",q:"Cuevas del Drach Mallorca",reserve:true},
+ {time:"下午",title:"Cala Millor",desc:"东海岸海滩，作为龙洞之后的海边段落。",q:"Cala Millor Mallorca"}
+]},
+{date:"10/20",dow:"周二",city:"马略卡",title:"Valldemossa → Deià 徒步",tz:"Europe/Madrid",events:[
+ {time:"全天",title:"Valldemossa → Deià",desc:"特拉蒙塔纳山脉徒步日。路线长度、难度、公共交通与天气备用方案需在出发前确认。",q:"Valldemossa Mallorca"},
+ {time:"徒步终点",title:"Deià",desc:"山海之间的村镇，徒步结束后作为当天落点。",q:"Deià Mallorca"}
+]},
+{date:"10/21",dow:"周三",city:"马略卡",title:"Alcúdia → 海滩 → Cap de Formentor",tz:"Europe/Madrid",events:[
+ {time:"上午",title:"Alcúdia Old Town · 阿尔库迪亚老城",desc:"北部保存较完整的历史城墙与老城街区。",q:"Alcúdia Old Town Mallorca"},
+ {time:"下午",title:"北部海滩",desc:"根据当天天气与交通灵活选择海滩。",q:"Alcúdia beach Mallorca"},
+ {time:"傍晚",title:"Cap de Formentor · 福门托尔角",desc:"马略卡北端经典观景区域。道路与季节性交通规则需出发前核实。",q:"Cap de Formentor Mallorca",risk:true}
+]},
+{date:"10/22",dow:"周四",city:"马略卡 → 巴塞罗那",title:"主教座堂 → 老城市场 → 飞巴塞罗那",tz:"Europe/Madrid",events:[
+ {time:"上午",title:"Palma Cathedral · 帕尔马主教座堂",desc:"帕尔马老城的标志性哥特式建筑。",q:"Catedral-Basílica de Santa María de Mallorca"},
+ {time:"中午",title:"老城市场",desc:"作为收尾午间段落，具体市场待最终选择。",q:"Palma Mallorca market"},
+ {time:"傍晚",title:"Palma → Barcelona",desc:"航班待订单截图，以实际起飞时间倒推当天安排。",q:"Palma de Mallorca Airport"}
+]},
+{date:"10/23",dow:"周五",city:"巴塞罗那",title:"哥特区 → 兰布拉大道",tz:"Europe/Madrid",events:[
+ {time:"白天",title:"Barri Gòtic · 哥特区",desc:"巴塞罗那老城核心街区，适合慢逛巷道、广场与建筑细节。",q:"Barri Gòtic Barcelona"},
+ {time:"随后",title:"La Rambla · 兰布拉大道",desc:"沿主轴轻松散步，不安排硬性预约。",q:"La Rambla Barcelona"}
+]},
+{date:"10/24",dow:"周六",city:"巴塞罗那",title:"Park Güell",tz:"Europe/Madrid",events:[
+ {time:"上午/下午",title:"Park Güell · 桂尔公园",desc:"高迪代表性公共空间与花园建筑群，建议提前锁定入场时段。",q:"Park Güell Barcelona",reserve:true}
+]},
+{date:"10/25",dow:"周日",city:"巴塞罗那",title:"圣家堂",tz:"Europe/Madrid",events:[
+ {time:"清早",title:"Sagrada Família · 圣家堂",desc:"当天核心项目。页面暂按现场购票计划记录，实际购票政策与可售时段需临近出行核实。",q:"Sagrada Família Barcelona",reserve:true},
+ {time:"下午",title:"周边自由安排",desc:"根据圣家堂实际入场时间与体力灵活调整。",q:"Sagrada Família Barcelona"}
+]},
+{date:"10/26",dow:"周一",city:"巴塞罗那",title:"Casa Batlló / La Pedrera → Passeig de Gràcia",tz:"Europe/Madrid",events:[
+ {time:"上午",title:"Casa Batlló / La Pedrera",desc:"两者择一或按实际购票情况安排内部参观。",q:"Casa Batlló Barcelona",reserve:true},
+ {time:"下午",title:"Passeig de Gràcia · 格拉西亚大道",desc:"高迪建筑与城市商业轴线结合的一段步行路线。",q:"Passeig de Gràcia Barcelona"}
+]},
+{date:"10/27",dow:"周二",city:"巴塞罗那",title:"Palau Güell → 博盖利亚 → 巴塞罗内塔",tz:"Europe/Madrid",events:[
+ {time:"上午",title:"Palau Güell · 桂尔宫",desc:"高迪早期城市住宅代表作，位于兰布拉附近。",q:"Palau Güell Barcelona",reserve:true},
+ {time:"中午",title:"Mercat de la Boqueria · 博盖利亚市场",desc:"作为午间城市体验点。",q:"Mercat de la Boqueria Barcelona"},
+ {time:"下午",title:"Barceloneta Beach · 巴塞罗内塔沙滩",desc:"轻松收尾，晚上回住宿收拾行李。",q:"Barceloneta Beach Barcelona"}
+]},
+{date:"10/28",dow:"周三",city:"巴塞罗那 → 阿姆斯特丹",title:"飞阿姆斯特丹 · 运河区漫步",tz:"Europe/Madrid",events:[
+ {time:"一早",title:"Barcelona → Amsterdam",desc:"航班待订单截图。当天不安排重景点。",q:"Barcelona-El Prat Airport"},
+ {time:"抵达后",title:"运河区漫步",desc:"入住后轻松适应荷兰行程。",q:"Amsterdam Canal Ring"}
+]},
+{date:"10/29",dow:"周四",city:"阿姆斯特丹",title:"运河区自由探索",tz:"Europe/Amsterdam",events:[
+ {time:"白天",title:"Amsterdam Canal Ring",desc:"作为缓冲日，可根据酒店位置补充 Jordaan、九街等街区。",q:"Amsterdam Canal Ring"},
+ {time:"傍晚",title:"自由安排",desc:"不塞硬性景点，为次日博物馆留体力。",q:"Amsterdam"}
+]},
+{date:"10/30",dow:"周五",city:"阿姆斯特丹",title:"梵高博物馆 → Rijksmuseum",tz:"Europe/Amsterdam",events:[
+ {time:"上午",title:"Van Gogh Museum · 梵高博物馆",desc:"围绕梵高作品与书信展开的专馆，建议提前锁定时段。",q:"Van Gogh Museum Amsterdam",reserve:true},
+ {time:"下午",title:"Rijksmuseum · 国立博物馆",desc:"荷兰国家级艺术史博物馆，留出半天更从容。",q:"Rijksmuseum Amsterdam",reserve:true}
+]},
+{date:"10/31",dow:"周六",city:"阿姆斯特丹 / 荷兰",title:"Anne Frank House → 羊角村或桑斯安斯",tz:"Europe/Amsterdam",events:[
+ {time:"上午",title:"Anne Frank House · 安妮之家",desc:"票务通常是本日需要优先锁定的项目。",q:"Anne Frank House Amsterdam",reserve:true},
+ {time:"下午",title:"羊角村或桑斯安斯风车村（二选一）",desc:"当前保留二选一，需结合安妮之家时间、交通和体力最终确定。",q:"Giethoorn Netherlands"},
+ {time:"备用",title:"Zaanse Schans",desc:"若最终选择风车村，则替换上一项。",q:"Zaanse Schans Netherlands"}
+]},
+{date:"11/01",dow:"周日",city:"阿姆斯特丹 → 杭州",title:"收尾 → 机场 → 杭州",tz:"Europe/Amsterdam",events:[
+ {time:"待定",title:"退房 / 前往机场",desc:"返程航班待订单截图。锁定后倒推机场到达时间。",q:"Amsterdam Airport Schiphol"},
+ {time:"待定",title:"Amsterdam → Hangzhou",desc:"返程航班信息待补。",q:"Amsterdam Airport Schiphol"}
+]}
 ];
-const TODO=["补全并核对所有航班订单截图","补全酒店订单信息","订巴黎 → 马赛高铁票","确认马赛 → Mallorca 10/17 深夜航班及机场交通","确认 Mallorca → 巴塞罗那 10/22 航班","确认巴塞罗那 → 阿姆斯特丹 10/28 航班","订卢浮宫门票","确认 Villa La Roche / 柯布西耶工作室开放时间","确认 Calanques 当天通行状态","确认 Drach 洞穴音乐会场次并购票","确认 Mallorca 徒步天气与返程交通","订 Park Güell","核对圣家堂现场购票政策及余票","订 Casa Batlló / La Pedrera（如进入室内）","订 Van Gogh Museum","订 Rijksmuseum","订 Anne Frank House","在 Giethoorn 与 Zaanse Schans 中结合天气选择","准备欧标转换插头与欧洲网络","确认回程机场交通"];
-const T=[["时区","欧洲路线均按当地时区显示，2026/10/25 夏令时结束会自动处理。"],["预约","卢浮宫、Park Güell、圣家堂、Van Gogh、Rijksmuseum、Anne Frank House 等热门点建议提前确认官方预约规则。"],["徒步","Calanques 与 Valldemossa→Deià 受天气和通行状态影响，不要把徒步结束时间压到深夜航班前。"],["Mallorca交通","山地和北部部分景点公共交通班次有限，待酒店/车辆方案确定后再细化交通。"],["阿姆斯特丹","10/31 羊角村 / 桑斯安斯风车村为弹性二选一，天气不好时保留市区方案。"],["紧急电话","欧洲境内通用紧急电话 112。"],["财物","巴黎、巴塞罗那热门景点和公共交通区域注意随身财物。"]];
-books.innerHTML=F.map(x=>'<div class="book"><b>'+x[0]+'</b><span class="tag '+(x[3]?'ok':'')+'">'+(x[3]?'已确认':'待补订单')+'</span><div class="meta sans">'+x[1]+'<br>'+x[2]+'</div></div>').join('');
-days.innerHTML=D.map((x,i)=>'<div class="day" id="day'+i+'"><button class="head" onclick="toggle('+i+')"><div class="date"><div class="dn">'+x[0].split('/')[1]+'</div><div class="dw">'+x[1]+'</div></div><div class="title">'+x[4]+'<div class="city" style="color:var(--'+x[3]+')">'+x[2]+'</div></div><div class="arr">▸</div></button><div class="body"><div class="mini"><svg viewBox="0 0 400 32"><line x1="10" y1="16" x2="390" y2="16" stroke="var(--'+x[3]+')" stroke-width="2" stroke-dasharray="1,7"/> '+x[5].map((z,j)=>'<circle cx="'+(10+380/Math.max(x[5].length-1,1)*j)+'" cy="16" r="4" fill="var(--'+x[3]+')"/>').join('')+'</svg></div>'+x[5].map(z=>{let p=z[2]||'',book=p.includes('|book');p=p.replace('|book','');return '<div class="row"><div class="time sans">'+z[0]+'</div><div class="name"><a href="'+map(z[1]+' '+x[2])+'" target="_blank">'+z[1]+'</a>'+(book?'<span class="note sans"> · 需提前确认/预约</span>':'')+(p?'<span class="note sans">'+p+'</span>':'')+(I[z[1]]?'<span class="intro sans">'+I[z[1]]+'</span>':'')+'</div></div>'}).join('')+'<a class="nav sans" target="_blank" href="'+dir(x[5].map(z=>z[1]+' '+x[2]))+'">一键打开全天导航</a></div></div>').join('');
-todos.innerHTML=TODO.map(x=>'<li class="sans">'+x+'</li>').join('');tips.innerHTML=T.map(x=>'<div class="tip"><b>'+x[0]+'：</b>'+x[1]+'</div>').join('');
-function toggle(i){document.getElementById('day'+i).classList.toggle('open')}
-const M=[{t:cn(2026,10,7,13,50),x:"出发：杭州 → 厦门",l:"杭州萧山 HGH"},{t:cn(2026,10,8,0,10),x:"出发：厦门 → 巴黎",l:"厦门 XMN"},{t:euro(2026,10,8,6,55),x:"抵达巴黎",l:"戴高乐 CDG"},{t:euro(2026,10,14,18),x:"巴黎 → 马赛",l:"巴黎"},{t:euro(2026,10,17,23,30),x:"马赛 → Mallorca",l:"马赛机场"},{t:euro(2026,10,22,19),x:"Mallorca → 巴塞罗那",l:"Palma"},{t:euro(2026,10,28,8),x:"巴塞罗那 → 阿姆斯特丹",l:"Barcelona"},{t:euro(2026,11,1,10),x:"阿姆斯特丹 → 杭州",l:"Amsterdam"}];
-function tick(){let n=M.find(q=>q.t>Date.now());if(!n){event.textContent="旅程已结束，欢迎回家 👋";count.style.display="none";return}event.innerHTML=n.x+'<span class="loc">'+n.l+'</span>';let z=n.t-Date.now();d.textContent=Math.floor(z/864e5);h.textContent=String(Math.floor(z/36e5)%24).padStart(2,"0");m.textContent=String(Math.floor(z/6e4)%60).padStart(2,"0");s.textContent=String(Math.floor(z/1e3)%60).padStart(2,"0")}tick();setInterval(tick,1000);theme.onclick=()=>{let x=document.documentElement.getAttribute("data-theme");let n=x==="dark"?"light":x==="light"?"dark":(matchMedia("(prefers-color-scheme:dark)").matches?"light":"dark");document.documentElement.setAttribute("data-theme",n);localStorage.setItem("theme",n)};
-</script></body></html>
+
+const palette=["#7c5ac7","#d36c4d","#e2a23b","#4c88c7","#4f9b73","#bd5b83","#5d8f9e","#a16a44"];
+function mapsSearch(q){return "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(q)}
+function mapsRoute(points){
+ const p=points.filter(Boolean);
+ if(p.length<2)return mapsSearch(p[0]||"");
+ return "https://www.google.com/maps/dir/?api=1&origin="+encodeURIComponent(p[0])+"&destination="+encodeURIComponent(p[p.length-1])+"&waypoints="+encodeURIComponent(p.slice(1,-1).join("|"))+"&travelmode=transit";
+}
+function miniSVG(day,idx){
+ const pts=day.events.map((_,i)=>({x:45+i*(610/Math.max(1,day.events.length-1)),y:105-35*Math.sin(i)}));
+ let path="";
+ pts.forEach((p,i)=>path+=(i?" L ":"M ")+p.x+" "+p.y);
+ const circles=pts.map((p,i)=>`<circle cx="${p.x}" cy="${p.y}" r="7" fill="${palette[(idx+i)%palette.length]}"/><text x="${p.x}" y="${p.y-13}" text-anchor="middle" font-size="10">${i+1}</text>`).join("");
+ return `<svg class="mini-map" viewBox="0 0 700 170" aria-label="${day.title}路线示意"><path d="${path}" stroke="var(--line)" stroke-width="3" fill="none" stroke-dasharray="5 7"/>${circles}<text x="20" y="153" font-size="12">${day.title}</text></svg>`;
+}
+const container=document.getElementById("days");
+days.forEach((day,idx)=>{
+ const card=document.createElement("section"); card.className="card day";
+ const color=palette[idx%palette.length]; card.style.borderTop=`4px solid ${color}`;
+ const points=day.events.map(e=>e.q);
+ const items=day.events.map(e=>`
+  <div class="item">
+   <div class="time">${e.time}</div>
+   <div class="content">
+    <b>${e.title}</b><p>${e.desc}</p>
+    <div class="linkrow"><a class="maplink" target="_blank" rel="noopener" href="${mapsSearch(e.q)}">📍 Google Maps</a>${e.reserve?'<span class="reserve">⚠ 需提前确认 / 预约</span>':''}${e.risk?'<span class="reserve">⚠ 时间风险</span>':''}</div>
+   </div>
+  </div>`).join("");
+ card.innerHTML=`
+  <div class="day-head"><div><div class="day-date">${day.date} · ${day.dow}</div><div class="day-city">${day.city}</div><div class="day-city">${day.title}</div></div><div class="day-num">DAY ${idx+1}</div></div>
+  <div class="timeline">${items}</div>
+  <button class="route-toggle" type="button">🗺 展开当日路线地图 + 全天多点导航</button>
+  <div class="route-panel">${miniSVG(day,idx)}<div class="linkrow"><a class="maplink" target="_blank" rel="noopener" href="${mapsRoute(points)}">🧭 打开全天多点导航</a></div></div>`;
+ card.querySelector(".route-toggle").onclick=()=>card.querySelector(".route-panel").classList.toggle("open");
+ container.appendChild(card);
+});
+
+function parseLocal(isoDate,tz){
+ const [y,m,d]=isoDate.split("-").map(Number);
+ const [hh,mm]=tz==="Asia/Shanghai"?[13,50]:[10,0];
+ // Event timestamps are encoded below separately; fallback uses browser-safe ISO.
+ return new Date(isoDate+"T00:00:00");
+}
+const countdownEvent=new Date("2026-10-07T13:50:00+08:00");
+function updateCountdown(){
+ const now=new Date(), diff=Math.max(0,countdownEvent-now), sec=Math.floor(diff/1000);
+ document.getElementById("dd").textContent=Math.floor(sec/86400);
+ document.getElementById("hh").textContent=pad(Math.floor(sec%86400/3600));
+ document.getElementById("mm").textContent=pad(Math.floor(sec%3600/60));
+ document.getElementById("ss").textContent=pad(sec%60);
+ const started=now>=countdownEvent;
+ document.getElementById("nextTitle").textContent=started?"下一项待订单确认":"杭州 → 厦门";
+ document.getElementById("nextPlace").textContent=started?"后续航班/酒店信息待补":"2026-10-07 13:50 · 中国标准时间 (UTC+8)";
+ document.getElementById("nextDate").textContent=started?"待补":"10/07 周三";
+ document.getElementById("nextNote").textContent=started?"你补齐订单后，这里会自动切换到下一时间锚点。":"这是目前最早且已基本确定的硬时间锚点。";
+}
+function pad(n){return String(n).padStart(2,"0")}
+updateCountdown();setInterval(updateCountdown,1000);
+</script>
+</body>
+</html>
