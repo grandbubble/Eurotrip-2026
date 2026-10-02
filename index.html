@@ -88,10 +88,10 @@ h1{font-size:clamp(30px,7vw,58px);line-height:1.02;margin:8px 0 12px;letter-spac
 <header class="hero">
   <div class="kicker">25-day Europe trip · 2 travelers</div>
   <h1>Paris → Marseille → Mallorca → Barcelona → Amsterdam</h1>
-  <div class="subtitle">2026.10.07 — 2026.11.01 · 杭州出发，法国＋西班牙＋荷兰。订单信息会在确认后持续补齐。</div>
+  <div class="subtitle">2026.10.07 — 2026.11.01 · 杭州出发，法国＋西班牙＋荷兰。已确认航班与部分住宿已更新。</div>
   <div class="badges">
     <span class="badge">2 人</span><span class="badge">时区自动处理</span>
-    <span class="badge">离线可读</span><span class="badge">订单待补</span>
+    <span class="badge">离线可读</span><span class="badge">部分订单已确认</span>
   </div>
 </header>
 
@@ -142,9 +142,9 @@ h1{font-size:clamp(30px,7vw,58px);line-height:1.02;margin:8px 0 12px;letter-spac
 
 <div class="section-title"><h2>已确认 / 待补订单</h2><span>公开页面不显示敏感编号</span></div>
 <section class="card summary-grid">
- <div class="summary-item"><b>✈️ 10/7 杭州 → 厦门</b><small>13:50 → 15:20 · 中国标准时间 · 航班号待订单确认</small></div>
- <div class="summary-item"><b>✈️ 10/8 厦门 → 巴黎 CDG</b><small>00:10 → 06:55（+1）· 出发中国标准时间，抵达巴黎当地时间 · 航班号待确认</small></div>
- <div class="summary-item"><b>🏨 酒店</b><small>巴黎 / 马赛 / 马略卡 / 巴塞罗那 / 阿姆斯特丹：待订单截图</small></div>
+ <div class="summary-item"><b>✈️ 10/7 杭州 → 厦门</b><small>13:50 → 15:20 · 中国标准时间 · 已确认</small></div>
+ <div class="summary-item"><b>✈️ 10/8 厦门 → 巴黎 CDG</b><small>00:10 → 06:55（+1）· 厦门航空 MF825 · 已确认</small></div>
+ <div class="summary-item"><b>🏨 已确认住宿</b><small>巴黎：100 Bd de Grenelle, 75015 Paris · 马赛：The People Marseille（12 rue Jean Trinquet, 13002 Marseille）</small></div>
  <div class="summary-item"><b>🎟️ 门票 / 预约</b><small>待订单截图。确认后补入场时间、地址、电话等公开信息。</small></div>
  <div class="summary-item"><b>🚗 租车</b><small>目前未锁定。马略卡交通方案待确认。</small></div>
  <div class="summary-item"><b>✈️ 后续航班</b><small>马赛 → 马略卡、马略卡 → 巴塞罗那、巴塞罗那 → 阿姆斯特丹、阿姆斯特丹 → 杭州：待订单截图</small></div>
@@ -156,8 +156,8 @@ h1{font-size:clamp(30px,7vw,58px);line-height:1.02;margin:8px 0 12px;letter-spac
 <div class="section-title"><h2>待办清单</h2><span>公开页面故意不做勾选</span></div>
 <section class="card todo">
 <ul>
- <li class="wait">补齐全部航班订单截图，锁定实际起降时间与机场</li>
- <li class="wait">补齐全部酒店订单，确认地址与入住/退房时间</li>
+ <li class="wait">补齐后续航班订单截图，锁定实际起降时间与机场</li>
+ <li class="wait">补齐马略卡、巴塞罗那、阿姆斯特丹酒店订单，确认地址与入住/退房时间</li>
  <li class="wait">核对巴黎卢浮宫夜场、Villa La Roche、萨伏伊别墅等预约</li>
  <li class="wait">确认巴黎圣母院预约开放时间</li>
  <li class="wait">确认马赛 Cité Radieuse 参观方式与开放时间</li>
@@ -190,10 +190,12 @@ const days = [
  {time:"13:50",title:"杭州萧山机场 → 厦门",desc:"已基本确定。15:20 抵达厦门，随后转国际航班。",q:"杭州萧山国际机场"},
  {time:"00:10",title:"厦门 → 巴黎 CDG",desc:"跨夜航段。预计 10/8 06:55 抵达戴高乐机场。",q:"厦门高崎国际机场"}
 ]},
-{date:"10/08",dow:"周四",city:"巴黎",title:"抵达巴黎 · 塞纳河散步",tz:"Europe/Paris",events:[
- {time:"06:55",title:"抵达 Charles de Gaulle Airport",desc:"以实际落地、入境和行李时间为准。酒店信息待订单截图。",q:"Charles de Gaulle Airport"},
- {time:"下午",title:"入住 + 休息",desc:"第一天不安排硬核景点，给跨夜航班留出缓冲。",q:"Paris"},
- {time:"傍晚",title:"塞纳河边散步",desc:"轻松倒时差，可根据酒店位置选择河岸路线。",q:"Seine River Paris"}
+{date:"10/08",dow:"周四",city:"巴黎",title:"抵达巴黎 → 凯旋门 → 香榭丽舍",tz:"Europe/Paris",events:[
+ {time:"06:55",title:"抵达 Charles de Gaulle Airport",desc:"以实际落地、入境和行李时间为准。巴黎住宿已确认：100 Bd de Grenelle, 75015 Paris。",q:"Charles de Gaulle Airport"},
+ {time:"上午/中午",title:"入住 / 寄存行李 + 休息",desc:"跨夜航班后先补觉、调整状态，不安排预约型博物馆。",q:"100 Bd de Grenelle Paris"},
+ {time:"下午",title:"Arc de Triomphe · 凯旋门",desc:"只看外观与城市轴线，不登顶；如果抵达或休息延误，可直接压缩或取消这一段。",q:"Arc de Triomphe Paris"},
+ {time:"随后",title:"Avenue des Champs-Élysées · 香榭丽舍大街",desc:"沿香榭丽舍向东漫步，可顺路看 Petit Palais、Grand Palais 外观与 Pont Alexandre III。",q:"Champs-Élysées Paris"},
+ {time:"傍晚",title:"塞纳河 / 埃菲尔铁塔周边",desc:"以轻松散步收尾，视当天体力决定是否继续。",q:"Seine River Paris"}
 ]},
 {date:"10/09",dow:"周五",city:"巴黎",title:"杜乐丽花园 → 橘园 → 卢浮宫夜场",tz:"Europe/Paris",events:[
  {time:"上午",title:"Jardin des Tuileries · 杜乐丽花园",desc:"连接协和广场与卢浮宫的历史花园，适合从户外慢慢进入当天的艺术路线。",q:"Jardin des Tuileries Paris"},
@@ -211,32 +213,35 @@ const days = [
  {time:"下午",title:"Musée Rodin · 罗丹美术馆",desc:"雕塑与花园结合的参观路线，节奏可比纯室内博物馆更松。",q:"Musée Rodin Paris",reserve:true},
  {time:"傍晚",title:"埃菲尔铁塔远观",desc:"不登塔，以塞纳河及周边街区作为收尾。",q:"Eiffel Tower Paris"}
 ]},
-{date:"10/12",dow:"周一",city:"巴黎",title:"巴黎圣母院 → Le Marais",tz:"Europe/Paris",events:[
- {time:"上午",title:"Cathédrale Notre-Dame de Paris · 巴黎圣母院",desc:"预约规则与可预约时间窗口待出行前核实。",q:"Notre-Dame de Paris",reserve:true},
- {time:"傍晚",title:"Le Marais · 玛黑区",desc:"从圣母院方向步行进入老街区，适合安排咖啡、画廊与街区漫步。",q:"Le Marais Paris"}
+{date:"10/12",dow:"周一",city:"巴黎",title:"巴黎圣母院 → Sainte-Chapelle → Le Marais",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Cathédrale Notre-Dame de Paris · 巴黎圣母院",desc:"参观教堂本体，不登塔；具体免费预约规则与可预约时间窗口待出行前核实。",q:"Notre-Dame de Paris",reserve:true},
+ {time:"中午/下午",title:"Sainte-Chapelle · 圣礼拜堂",desc:"重点看彩色玻璃与哥特式空间，建议提前预约时段。",q:"Sainte-Chapelle Paris",reserve:true},
+ {time:"傍晚",title:"Le Marais · 玛黑区",desc:"从圣母院方向步行进入老街区，安排咖啡、画廊、独立店铺与街区漫步。",q:"Le Marais Paris"}
 ]},
 {date:"10/13",dow:"周二",city:"巴黎 / 普瓦西",title:"萨伏伊别墅一日游",tz:"Europe/Paris",events:[
  {time:"全天",title:"Villa Savoye · 萨伏伊别墅",desc:"柯布西耶现代建筑五点的经典住宅案例，单独留一天避免交通与参观被压缩。",q:"Villa Savoye Poissy",reserve:true}
 ]},
-{date:"10/14",dow:"周三",city:"巴黎 → 马赛",title:"凯旋门 → 香榭丽舍 → 大皇宫 → 前往马赛",tz:"Europe/Paris",events:[
- {time:"上午",title:"Arc de Triomphe · 凯旋门",desc:"以外观与城市轴线为主，不登顶。",q:"Arc de Triomphe Paris"},
- {time:"随后",title:"Avenue des Champs-Élysées · 香榭丽舍大街",desc:"沿轴线步行或远观，不安排长时间购物。",q:"Champs-Élysées Paris"},
- {time:"下午",title:"Grand Palais · 大皇宫",desc:"作为当天巴黎最后一站，具体开放内容待当期展览核实。",q:"Grand Palais Paris"},
- {time:"晚上",title:"前往马赛",desc:"以已出票交通为最终锚点，车次/航班信息待订单截图。",q:"Paris"}
+{date:"10/14",dow:"周三",city:"巴黎 → 马赛",title:"大皇宫 → 下午前往马赛",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Grand Palais · 大皇宫",desc:"今天只保留大皇宫，观看《Cézanne et nous》展览；预留约 2–2.5 小时，避免退房与南下交通过于紧张。",q:"Grand Palais Paris",reserve:true},
+ {time:"中午",title:"午餐 + 返回住宿取行李",desc:"退房后尽量轻装前往大皇宫，参观结束后回 15 区取行李。",q:"100 Bd de Grenelle Paris"},
+ {time:"下午",title:"Paris → Marseille · TGV",desc:"建议预留充足交通缓冲，下午从 Paris Gare de Lyon 前往 Marseille Saint-Charles；具体车次以出票为准。",q:"Gare de Lyon Paris"},
+ {time:"晚上",title:"入住 The People Marseille",desc:"马赛住宿已确认：12 rue Jean Trinquet, 13002 Marseille。抵达后以 Vieux-Port 周边轻松散步为主。",q:"The People Marseille"}
 ]},
-{date:"10/15",dow:"周四",city:"马赛",title:"老港 → Le Panier → 画廊路线",tz:"Europe/Paris",events:[
- {time:"上午",title:"Vieux-Port · 老港",desc:"马赛城市核心港湾，适合从港口开始进入老城。",q:"Vieux-Port de Marseille"},
- {time:"随后",title:"Le Panier · Le Panier老城",desc:"马赛历史街区，以坡地街巷、壁画和小型店铺为特色。",q:"Le Panier Marseille"},
- {time:"下午",title:"MEDUSA / art-cade / Studio Fotokino / Le Convent",desc:"按营业时间串联的画廊与艺术空间路线，具体开放日待核。",q:"MEDUSA Marseille"},
- {time:"傍晚",title:"开胃酒",desc:"保留弹性，不预设具体店，后续可按住宿位置补充。",q:"Marseille"}
+{date:"10/15",dow:"周四",city:"马赛",title:"老港 → Le Panier → 逛街 → SISSI Club → SOMA",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Vieux-Port · 老港",desc:"从马赛城市核心港湾开始，沿港口与老城方向慢慢进入当天路线。",q:"Vieux-Port de Marseille"},
+ {time:"随后",title:"Le Panier · Le Panier老城",desc:"马赛历史街区，以坡地街巷、壁画、独立小店与设计店铺为特色。",q:"Le Panier Marseille"},
+ {time:"下午",title:"逛街 · Cours Julien / Réformés 一带",desc:"安排独立店铺、vintage、设计与生活方式小店，保持弹性。",q:"Cours Julien Marseille"},
+ {time:"下午",title:"SISSI Club · 艺术画廊",desc:"当代艺术画廊 / 艺术空间，地址 16 cours Joseph Thierry；具体当期展览与开放时间出行前再核实。",q:"SISSI Club Marseille"},
+ {time:"晚上",title:"SOMA · 酒吧 / 艺术空间",desc:"安排在 Cours Julien 一带的夜间酒吧与艺术空间活动，具体当晚活动以官方发布为准。",q:"SOMA Marseille"}
 ]},
-{date:"10/16",dow:"周五",city:"马赛",title:"Cité Radieuse → Sissi Club",tz:"Europe/Paris",events:[
- {time:"白天",title:"Cité Radieuse · 马赛公寓",desc:"柯布西耶在马赛的集合住宅代表作，重点看公共空间、屋顶与建筑尺度。",q:"Unité d'Habitation Marseille",reserve:true},
- {time:"晚上",title:"Sissi Club",desc:"目前按周五夜间安排，营业情况与活动主题待出行前确认。",q:"Sissi Club Marseille"}
+{date:"10/16",dow:"周五",city:"马赛",title:"Sugiton · 官方徒步路线",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Campus de Luminy → Calanque de Sugiton",desc:"按你已选定的国家公园官方 Sugiton 路线徒步：约 3.2 km、2h15、累计爬升约 83 m，中等难度；可前往 Sugiton belvédère 后下到海湾。",q:"Calanque de Sugiton Marseille",risk:true},
+ {time:"下午",title:"返回马赛市区",desc:"徒步结束后回住宿休息，不再安排高强度景点，给第二天的建筑行程留体力。",q:"The People Marseille"}
 ]},
-{date:"10/17",dow:"周六",city:"马赛 / 卡西斯",title:"卡西斯峡湾徒步 → 23:30 飞马略卡",tz:"Europe/Paris",events:[
- {time:"白天",title:"Calanques de Cassis · 卡西斯峡湾",desc:"当天最大的时间风险点。必须按 23:30 航班倒推徒步结束、返程和机场到达时间。",q:"Calanques National Park Cassis",risk:true},
- {time:"23:30",title:"马赛 → 马略卡岛",desc:"航班订单待补。机场、航站楼与最晚值机时间锁定后再微调徒步路线。",q:"Marseille Provence Airport",risk:true}
+{date:"10/17",dow:"周六",city:"马赛 → 马略卡",title:"Cité Radieuse · 马赛公寓 → 马赛收尾 → 前往马略卡",tz:"Europe/Paris",events:[
+ {time:"上午",title:"Cité Radieuse · 马赛公寓",desc:"柯布西耶在马赛的集合住宅代表作，重点看公共空间、屋顶与建筑尺度；作为马赛建筑日的核心。",q:"Unité d'Habitation Marseille",reserve:true},
+ {time:"下午",title:"海边 / 老港收尾",desc:"根据前一天徒步后的体力，在海边、老港或住宿附近轻松活动，之后取行李前往机场。",q:"Vieux-Port de Marseille"},
+ {time:"23:30",title:"马赛 → 马略卡岛",desc:"航班订单待补。机场、航站楼与最晚值机时间锁定后再微调当日节奏。",q:"Marseille Provence Airport",risk:true}
 ]},
 {date:"10/18",dow:"周日",city:"马略卡",title:"凌晨抵达 → 帕尔马老城",tz:"Europe/Madrid",events:[
  {time:"凌晨",title:"抵达 Mallorca",desc:"实际机场与航班时间待订单截图。先入住/寄存行李，再睡到自然醒。",q:"Palma de Mallorca Airport"},
