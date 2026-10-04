@@ -160,7 +160,7 @@ h1{font-size:clamp(30px,7vw,58px);line-height:1.02;margin:8px 0 12px;letter-spac
  <li class="wait">补齐马略卡、巴塞罗那、阿姆斯特丹酒店订单，确认地址与入住/退房时间</li>
  <li class="wait">核对巴黎卢浮宫夜场、Villa La Roche、萨伏伊别墅等预约</li>
  <li class="wait">确认巴黎圣母院预约开放时间</li>
- <li class="wait">确认马赛 Cité Radieuse 参观方式与开放时间</li>
+ <li>10/17 10:00 Cité Radieuse 导览已预约</li>
  <li class="wait">确认 Cuevas del Drach 音乐会场次及购票</li>
  <li class="wait">确认马略卡徒步交通及天气备用方案</li>
  <li class="wait">确认 Cap de Formentor 当日交通/道路限制</li>
@@ -199,7 +199,7 @@ const days = [
 ]},
 {date:"10/09",dow:"周五",city:"巴黎",title:"杜乐丽花园 → 橘园 → 卢浮宫夜场",tz:"Europe/Paris",events:[
  {time:"上午",title:"Jardin des Tuileries · 杜乐丽花园",desc:"连接协和广场与卢浮宫的历史花园，适合从户外慢慢进入当天的艺术路线。",q:"Jardin des Tuileries Paris"},
- {time:"上午",title:"Musée de l'Orangerie · 橘园美术馆",desc:"以莫奈《睡莲》大型壁画空间闻名，位于杜乐丽花园西端。",q:"Musée de l'Orangerie Paris",reserve:true},
+ {time:"上午",title:"Musée de l'Orangerie · 橘园美术馆",desc:"以莫奈《睡莲》大型壁画空间闻名，位于杜乐丽花园西端。现场购买通票，无需提前线上预约。",q:"Musée de l'Orangerie Paris"},
  {time:"下午/夜场",title:"Musée du Louvre · 卢浮宫",desc:"把主要参观时间留给下午至夜场，避免与上午行程抢时间。",q:"Louvre Museum Paris",reserve:true}
 ]},
 {date:"10/10",dow:"周六",city:"巴黎",title:"Villa La Roche → 柯布西耶工作室 → 当代艺术",tz:"Europe/Paris",events:[
@@ -209,8 +209,8 @@ const days = [
  {time:"傍晚",title:"Palais de Tokyo · 东京宫书店",desc:"靠近现代美术馆，可作为当天最后一站。",q:"Palais de Tokyo Paris"}
 ]},
 {date:"10/11",dow:"周日",city:"巴黎",title:"奥赛 → 罗丹 → 埃菲尔铁塔远观",tz:"Europe/Paris",events:[
- {time:"上午",title:"Musée d'Orsay · 奥赛博物馆",desc:"由旧火车站改造而成的博物馆，重点看印象派及19世纪艺术收藏。",q:"Musée d'Orsay Paris",reserve:true},
- {time:"下午",title:"Musée Rodin · 罗丹美术馆",desc:"雕塑与花园结合的参观路线，节奏可比纯室内博物馆更松。",q:"Musée Rodin Paris",reserve:true},
+ {time:"上午",title:"Musée d'Orsay · 奥赛博物馆",desc:"由旧火车站改造而成的博物馆，重点看印象派及19世纪艺术收藏。现场购买通票，无需提前线上预约。",q:"Musée d'Orsay Paris"},
+ {time:"下午",title:"Musée Rodin · 罗丹美术馆",desc:"雕塑与花园结合的参观路线，节奏可比纯室内博物馆更松。无需提前预约，可现场购票入场。",q:"Musée Rodin Paris"},
  {time:"傍晚",title:"埃菲尔铁塔远观",desc:"不登塔，以塞纳河及周边街区作为收尾。",q:"Eiffel Tower Paris"}
 ]},
 {date:"10/12",dow:"周一",city:"巴黎",title:"巴黎圣母院 → Sainte-Chapelle → Le Marais",tz:"Europe/Paris",events:[
@@ -239,7 +239,7 @@ const days = [
  {time:"下午",title:"返回马赛市区",desc:"徒步结束后回住宿休息，不再安排高强度景点，给第二天的建筑行程留体力。",q:"The People Marseille"}
 ]},
 {date:"10/17",dow:"周六",city:"马赛 → 马略卡",title:"Cité Radieuse · 马赛公寓 → 马赛收尾 → 前往马略卡",tz:"Europe/Paris",events:[
- {time:"上午",title:"Cité Radieuse · 马赛公寓",desc:"柯布西耶在马赛的集合住宅代表作，重点看公共空间、屋顶与建筑尺度；作为马赛建筑日的核心。",q:"Unité d'Habitation Marseille",reserve:true},
+ {time:"10:00",title:"Cité Radieuse · 马赛公寓",desc:"已预约 10/17 10:00 导览。柯布西耶在马赛的集合住宅代表作，重点看公共空间、屋顶与建筑尺度；本次导览包含建筑参观与样板公寓等核心内容。",q:"Unité d'Habitation Marseille"},
  {time:"下午",title:"海边 / 老港收尾",desc:"根据前一天徒步后的体力，在海边、老港或住宿附近轻松活动，之后取行李前往机场。",q:"Vieux-Port de Marseille"},
  {time:"23:30",title:"马赛 → 马略卡岛",desc:"航班订单待补。机场、航站楼与最晚值机时间锁定后再微调当日节奏。",q:"Marseille Provence Airport",risk:true}
 ]},
